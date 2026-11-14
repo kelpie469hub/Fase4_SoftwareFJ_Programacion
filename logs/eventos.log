@@ -1,0 +1,10 @@
+2026-11-13 21:02:55,019 - INFO - Operación 1: Cliente 'Ana Gomez' registrado correctamente.
+2026-11-13 21:02:55,019 - ERROR - Operación 2 (Validación): El correo 'carlos_correo_malo' no es válido. Debe contener @ y un dominio.
+2026-11-13 21:02:55,020 - INFO - Operación 3: 3 servicios creados correctamente.
+2026-11-13 21:02:55,020 - ERROR - Operación 4 (Validación de Servicio): El costo base debe ser mayor a cero.
+2026-11-13 21:02:55,021 - INFO - Operación 5: Reserva R001 confirmada exitosamente.
+2026-11-13 21:02:55,021 - ERROR - Operación 6 (Reserva fallida): La duración de la reserva debe ser mayor a cero.
+2026-11-13 21:02:55,021 - INFO - Operación 7: Reserva R001 procesada. Costo: $160,650.00
+2026-11-13 21:02:55,022 - ERROR - Operación 8 (Doble proceso): Solo se pueden procesar reservas en estado 'Confirmada'.
+2026-11-13 21:02:55,022 - ERROR - Operación 9 (Excepción encadenada): La duración debe ser un número entero.. Causa original: invalid literal for int() with base 10: 'tres'
+2026-11-13 21:02:55,022 - ERROR - Operación 10 (Confirmar cancelada): No se puede confirmar una reserva en estado 'Cancelada'.
