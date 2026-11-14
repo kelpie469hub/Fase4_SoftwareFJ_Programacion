@@ -1,7 +1,6 @@
-# ==========================================
-# Estudiante 1: Manejo de Excepciones
+
+# Manejo de Excepciones
 # Archivo: src/excepciones.py
-# ==========================================
 
 class SoftwareFJError(Exception):
     """Clase base para todas las excepciones del sistema Software FJ."""

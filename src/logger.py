@@ -1,10 +1,9 @@
 import logging
 import os
 
-# ==========================================
-# Estudiante 1: Registro de Eventos (Logs)
+
+# Registro de Eventos (Logs)
 # Archivo: src/logger.py
-# ==========================================
 
 # Aseguramos que la carpeta 'logs' exista
 if not os.path.exists('logs'):
