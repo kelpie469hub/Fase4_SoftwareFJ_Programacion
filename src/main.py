@@ -1,8 +1,8 @@
 # Archivo principal: Simulación del Sistema Integral Software FJ
-from src.entidades import Cliente, Reserva
-from src.servicios import ReservaSala, AlquilerEquipo, AsesoriaEspecializada
-from src.excepciones import DatoInvalidoError, ReservaInvalidaError, SoftwareFJError
-from src.logger import registrar_evento, registrar_error
+from entidades import Cliente, Reserva
+from servicios import ReservaSala, AlquilerEquipo, AsesoriaEspecializada
+from excepciones import DatoInvalidoError, ReservaInvalidaError, SoftwareFJError
+from logger import registrar_evento, registrar_error
 
 def ejecutar_simulacion():
     print("="*60)

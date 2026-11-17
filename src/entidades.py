@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from src.excepciones import DatoInvalidoError
+from excepciones import DatoInvalidoError
 
 # Clase Abstracta y Cliente
 # Archivo: src/entidades.py
@@ -66,8 +66,8 @@ class Cliente(EntidadBase):
     def obtener_detalles(self):
         return f"Cliente [{self._id_entidad}] - Nombre: {self._nombre}, Correo: {self._correo}, Tel: {self._telefono}"
     import datetime
-from src.servicios import Servicio
-from src.excepciones import ReservaInvalidaError
+from servicios import Servicio
+from excepciones import ReservaInvalidaError
 
 class Reserva(EntidadBase):
     """Clase que integra un Cliente, un Servicio, duración y estado."""

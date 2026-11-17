@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from src.excepciones import DatoInvalidoError
+from excepciones import DatoInvalidoError
 
 # Clase Abstracta Servicio y Clases Derivadas
 # Archivo: src/servicios.py
