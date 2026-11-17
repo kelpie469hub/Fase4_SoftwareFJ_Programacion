@@ -25,7 +25,7 @@ Aplicación orientada a objetos (sin base de datos) que gestiona clientes, servi
 2. Ejecuta `python src/main.py`.
 3. Revisa el archivo `logs/software_fj.log` para ver los eventos y errores registrados.
 
-## 🧪 Simulación incluida
+##  Simulación incluida
 El script `main.py` ejecuta **más de 10 operaciones** (válidas e inválidas) que demuestran la robustez del sistema: clientes con datos incorrectos, servicios no disponibles, reservas con duración inválida, operaciones no permitidas, cálculos con impuestos/descuentos, etc.
 
-## 📂 Estructura del repositorio
+##  Estructura del repositorio
